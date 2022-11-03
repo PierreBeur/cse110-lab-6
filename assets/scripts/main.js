@@ -96,7 +96,7 @@ function initFormHandler() {
     // Clear the local storage
     localStorage.clear();
     // Delete the contents of <main>
-    document.querySelector('main').innerHTML = '<!-- Add Recipes Here -->';
+    document.querySelector('main').innerHTML = `<!-- Add Recipes Here -->`;
   });
 
 }
