@@ -136,9 +136,7 @@ class RecipeCard extends HTMLElement {
         <span>(${data.numRatings})</span>
       </div>
       <time>${data.lengthTime}</time>
-      <p class="ingredients">
-        ${data.ingredients}
-      </p>
+      <p class="ingredients">${data.ingredients}</p>
     `;
   }
 }
