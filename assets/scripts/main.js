@@ -64,7 +64,8 @@ function initFormHandler() {
   const form = document.querySelector('form');
   // Add an event listener for the 'submit' event,
   // which fires when the submit button is clicked
-  form.addEventListener('submit', () => {
+  form.addEventListener('submit', (event) => {
+    event.preventDefault();
     // Create a new FormData object from the <form> element reference above
     const formData = new FormData(form);
     // Create an empty object
